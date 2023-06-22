@@ -895,9 +895,9 @@
     cursor: pointer;
 }
 
-.bottom-icon-fa-circle:hover .fa-icon-btn-grammar {
+/* .bottom-icon-fa-circle:hover .fa-icon-btn-grammar {
     color: var(--white-color);
-} 
+}  */
 
 .fa-icon-btn:hover {
     color: var(--white-color);
@@ -1028,7 +1028,7 @@
 }
 
 
-/* .fa-icon-btn-grammar:hover {
+.fa-icon-btn-grammar:hover {
     color: var(--white-color);
 }
 
@@ -1036,7 +1036,7 @@
     content: "";
     display: block;
     position: absolute;
-    left: 7px;
+    left: 5px;
     bottom: 0;
     right: 0;
     top: 0px;
@@ -1044,7 +1044,7 @@
     height: 4.2rem;
     border-radius: 50%;
     background-color: palevioletred;
-} */
+}
 
 
 /*  */
