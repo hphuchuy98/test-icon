@@ -218,7 +218,7 @@
 } */
 
 
-/* .fa-icon-btn-grammar:hover {
+.fa-icon-btn-grammar:hover {
     color: var(--white-color);
 }
 
@@ -233,6 +233,6 @@
     width: 4.2rem;
     height: 4.2rem;
     border-radius: 50%;
-    background-color: palevioletred;
-} */
+    /* background-color: palevioletred; */
+}
 
