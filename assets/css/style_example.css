@@ -218,21 +218,3 @@
 } */
 
 
-.fa-icon-btn-grammar:hover {
-    color: var(--white-color);
-}
-
-.fa-icon-btn-grammar::after{
-    content: "";
-    display: block;
-    position: absolute;
-    left: 7px;
-    bottom: 0;
-    right: 0;
-    top: 0px;
-    width: 4.2rem;
-    height: 4.2rem;
-    border-radius: 50%;
-    /* background-color: palevioletred; */
-}
-
