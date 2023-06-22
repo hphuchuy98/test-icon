@@ -1,0 +1,181 @@
+.open {
+    display: block;
+}
+
+.active-blue {
+    background-color: #EDFBFF;
+}
+
+.part-container__account-item .no-war {
+    color: blue;
+    margin-left: 5px;
+    font-family: Poppins;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.ye-war {
+    color: red !important;
+}
+
+/* ----- hide 1 of 3 option -----*/
+
+.part-container__detail-my-coures {
+    /* display: none */
+}
+
+.part-container__detail-account {
+    display: none
+}
+
+.part-container__detail-logout {
+    display: none
+}
+
+/* ----- hide 1 of 3 option ----- */
+
+/* media */
+@media (max-width: 1209px) {
+    .header {
+        padding: 20px 40px;
+    }
+}
+
+
+@media screen and (max-width: 1070px) {
+    .header {
+        padding: 20px 20px;
+        height: 94px;
+    }
+    .navbar-logo img {
+        /* width: 100%; */
+        height: 100%;
+        object-fit: cover;
+    }
+    
+
+}
+
+@media screen and (max-width: 1010px) {
+    .checkbtn {
+        display: block;
+        color: var(--color-blue-light-1);
+    }
+    .menu-desk-horizontal {
+        display: none;
+    }
+    
+    .footer__item {
+        display: block;
+    }
+
+    .footer {
+        padding: 45px 30px;
+    }
+
+    .footer__item-link {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .rank-container-item {
+        flex-wrap: wrap;
+    }
+
+    .mar-t-0 {
+        margin-top: 0;
+    }
+
+    .feature-info__ava {
+    width: calc((100% * (1/3)));
+
+    }
+
+    .text-info__item span {
+        font-size: 12px;
+    
+    }
+
+    .text-info__item {
+        line-height: 1.2;
+    }
+    
+    .img-info__ava {
+        bottom: 0;
+    }
+
+    .part-detail-course__pass-right {
+        max-width: 100px;
+    }
+
+    .part-detail-course__date,
+    .part-detail-course__pass-right,
+    .part-detail-course__pass-left {
+        font-size: 10px;
+    }
+
+    .part-detail-course__drop-left span, 
+    .part-detail-course__drop-right span {
+        font-size: 10px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .part-container__board {
+        width: 100%;
+    }
+
+    .part-container__detail {
+        width: 100%;
+    }
+
+    .main-part-container-item {
+        flex-wrap: wrap;
+    }
+
+    
+    .part-detail-course__date {
+        font-size: 10px;
+    }
+
+    .part-detail-course__date,
+    .part-detail-course__pass-right,
+    .part-detail-course__pass-left {
+        font-size: 10px;
+    }
+
+    .part-detail-course__pass-right {
+        max-width: 90px;
+    }
+
+    .mar-l-10px {
+        margin-left: 5px;
+    }
+
+    .part-detail-course__pass-icon .pass-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .part-detail-course__pass-icon .pass-icon i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part-detail-course__drop-right {
+        padding-right: 0;
+    }
+
+    .part-detail-course__drop-left span, 
+    .part-detail-course__drop-right span {
+        font-size: 10px;
+    }
+
+    .part-detail-course__drop-right a {
+        padding: 2px 8px;
+    }
+}
+

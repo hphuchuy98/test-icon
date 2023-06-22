@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>topic – PHRASEBOOK</title>
+
+    <link rel="shortcut icon" type="image/png" href="./assets/images/logo/favicon.ico"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main_topic_detail.css">
+    <link rel="stylesheet" href="./assets/css/base_topic_detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <script src="https://kit.fontawesome.com/88caf8a6d8.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div id="wrapper" class="tcb-style-wrap">
+        <!--------- header --------->
+        <header id="thrive-header" class="header">
+            <!-- navbar -->
+            <div class="navbar-section">
+                <div class="checkbtn js-open-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <label class="navbar-logo">
+                    <a href="#"> 
+                        <img src="./assets/images/logo/Phrasebook_logo.png" alt="logo">
+                    </a>
+                </label>
+                <ul class="menu-desk-horizontal">
+                    <li class="menu-item">
+                        <div class="menu-item-link">
+                            <a class="hover-un" href="#">Courses</a>
+                            <span class="line-hover"><span class=""></span></span>
+                        </div>
+                    </li>
+                    <li class="menu-item ">
+                        <div class="menu-item-link">
+                            <a class="hover-un bold" href="#">ONLINE
+                            </a>
+                            <i class="menu-icon fa-solid fa-angle-down"></i>
+                            <span class="line-hover"><span class=""></span></span>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a href="https://www.youtube.com/watch?v=u0cu-T7C9bU">
+                                <span>PHRASEBOOK AT WORK</span>
+                            </a></li>
+                            <li><a href="#">
+                                <span>GRAMMAR BOOST</span>
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <div class="menu-item-link">
+                            <a class="hover-un bold" href="#">OFFLINE</a>
+                            <i class="menu-icon fa-solid fa-angle-down"></i>
+                            <span class="line-hover"><span></span></span>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a href="https://www.youtube.com/watch?v=u0cu-T7C9bU">
+                                <span>COACH 1:1</span>
+                            </a></li>
+                            <li><a href="#">
+                                <span>PAPAYA - NGỮ PHÁP ĐU ĐỦ</span>
+                            </a></li>
+                            <li><a href="#">
+                                <span>PRACTICAL PRONUNCIATION - PHÁT ÂM</span>
+                            </a></li>
+                            <li><a href="#">
+                                <span>ERE - TĂNG CƯỜNG PHẢN XẠ</span>
+                            </a></li>
+                            <li><a href="#">
+                                <span>ELEVATOR PITCH</span>
+                            </a></li>
+                            <li><a href="#">
+                                <span>THE SPEAKING LAB (TSLAB) - TIẾNG ANH HÙNG BIỆN</span>
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <div class="menu-item-link">
+                            <a class="hover-un" href="#">Methodololy</a>
+                            <i class="menu-icon fa-solid fa-angle-down"></i>
+                            <span class="line-hover"><span></span></span>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a href="https://www.youtube.com/watch?v=u0cu-T7C9bU">
+                                <span>Methodology Vn</span>
+                            </a></li>
+                            <li><a href="#">
+                                <span>Methodology En</span>
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <div class="menu-item-link">
+                            <a class="hover-un" href="#">Blog</a>
+                            <span class="line-hover"><span></span></span>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="menu-item-link">
+                            <a class="hover-un" href="#">Contact</a>
+                            <span class="line-hover"><span></span></span>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="menu-item-link">
+                            <a class="hover-un" href="#">My Account</a>
+                            <i class="menu-icon fa-solid fa-angle-down"></i>
+                            <span class="line-hover"><span></span></span>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a href="https://www.youtube.com/watch?v=u0cu-T7C9bU">
+                                <span>Our Products</span>
+                            </a></li>
+                            <li><a href="#">
+                                <span>Cart</span>
+                            </a></li>
+                            <li><a href="#">
+                                <span>Checkout</span>
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <div class="menu-item-link">
+                            <a class="menu-wrapper bold" href="#">P@W Course</a>
+                            <span class="line-hover"><span class="active-hover"></span></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- show-menu-for-phone -->
+        <div class="navbar-phone-section js-show-menu ">
+            <div class="navbar-phone-section-item ">
+                <div class="menu-phone-close js-close-menu">
+                    <i class="menu-phone-icon-close fa-solid fa-xmark"></i>
+                </div>
+                <div class="navbar-phone-item">
+                    <ul class="menu-phone-horizontal">
+                        <li class="menu-phone-item active">
+                            <div class="menu-phone-item-link">
+                                <a class="active" href="#">Courses</a>
+                                <span class="line-hover"><span class="active-hover"></span></span>
+                            </div>
+                        </li>
+                        <li class="menu-phone-item active">
+                            <div class="menu-phone-item-link">
+                                <a class="menu-text bold active" href="#">ONLINE</a>
+                                <i class="menu-phone-icon fa-solid fa-angle-down arrow"></i>
+                                <span class="line-hover"><span class="active-hover"></span></span>
+                            </div>
+                            <ul class="sub-menu-phone">
+                                <li><a href="https://www.youtube.com/watch?v=u0cu-T7C9bU">
+                                    <span>PHRASEBOOK AT WORK</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>GRAMMAR BOOST</span>
+                                </a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-phone-item">
+                            <div class="menu-phone-item-link">
+                                <a class="bold" href="#">OFFLINE</a>
+                                <i class="menu-phone-icon fa-solid fa-angle-down arrow"></i>
+                                <span class="line-hover"><span></span></span>
+                            </div>
+                            <ul class="sub-menu-phone">
+                                <li><a href="https://www.youtube.com/watch?v=u0cu-T7C9bU">
+                                    <span>COACH 1:1</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>PAPAYA - NGỮ PHÁP ĐU ĐỦ</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>PRACTICAL PRONUNCIATION - PHÁT ÂM</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>ERE - TĂNG CƯỜNG PHẢN XẠ</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>ELEVATOR PITCH</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>THE SPEAKING LAB (TSLAB) - TIẾNG ANH HÙNG BIỆN</span>
+                                </a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-phone-item">
+                            <div class="menu-phone-item-link">
+                                <a href="#">Methodololy</a>
+                                <i class="menu-phone-icon fa-solid fa-angle-down arrow"></i>
+                                <span class="line-hover"><span></span></span>
+                            </div>
+                            <ul class="sub-menu-phone">
+                                <li><a href="https://www.youtube.com/watch?v=u0cu-T7C9bU">
+                                    <span>Methodology Vn</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>Methodology En</span>
+                                </a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-phone-item">
+                            <div class="menu-phone-item-link">
+                                <a href="#">Blog</a>
+                                <span class="line-hover"><span></span></span>
+                            </div>
+                        </li>
+                        <li class="menu-phone-item">
+                            <div class="menu-phone-item-link">
+                                <a href="#">Contact</a>
+                                <span class="line-hover"><span></span></span>
+                            </div>
+                        </li>
+                        <li class="menu-phone-item">
+                            <div class="menu-phone-item-link">
+                                <a href="#">My Account</a>
+                                <i class="menu-phone-icon fa-solid fa-angle-down arrow"></i>
+                                <span class="line-hover"><span></span></span>
+                            </div>
+                            <ul class="sub-menu-phone">
+                                <li><a href="https://www.youtube.com/watch?v=u0cu-T7C9bU">
+                                    <span>Our Products</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>Cart</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>Checkout</span>
+                                </a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-phone-item menu-phone-wrapper">
+                            <div class="menu-phone-item-link">
+                                <a class="text-blue bold" href="#">P@W Course</a>
+                                <span class="line-hover"><span class="active-hover"></span></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--------- end header --------->
+
+
+        <!-- Hero -->
+        <div class="hero">
+            <div class="hero-container">    
+                <div class="hero-item">
+                    <div class="item-topic">
+                        <div class="item-topic__img">
+                           <img src="./assets/images/topic/Topic-3.gif" alt="anh-topic"> 
+                        </div>
+                        <div class="item-topic__box">
+                            <div class="item-topic__unit">
+                                <span>Topic 1 - First Day Of Work</span>
+                            </div>
+                            <div class="item-topic__title">
+                                <span>Welcome aboard!</span>
+                            </div>
+                            <div class="item-topic__progress">
+                                <div class="topic-skill">
+                                    <div class="topic-skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-item">
+                    <div class="item-description">
+                        <div class="item-description__word">
+                            <p><b>Description:</b>  3.000 ideas chia theo 30 chủ đề hấp dẫn được thiết kế để luyện tập đặc biệt theo phương pháp PHRASEBOOK độc quyền giúp tăng khả năng ghi nhớ âm thanh và thói quen sử dụng tiếng Anh theo cụm cho giới văn phòng.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grammar -->
+        <div class="grammar">
+            <div class="grammar-container">
+                <div class="grammar-item">
+                    <ul class="grammar-part">
+                        <li>
+                            <div class="grammar-item-group js-open-topic-test">
+                                <div class="grammar-item__part">
+                                    <div class="grammar-item__sub-down">
+                                        <div class="grammar-sub-down__icon js-open-topic">
+                                            <i class="grammar-icon fa-solid fa-angle-down arrow-topic"></i>
+                                        </div>
+                                    </div>
+                                    <div class="grammar-item__text">
+                                        <span>Part 0 - Grammar Boost</span>
+                                    </div>
+                                </div>
+                                <div class="grammar-item__icon">
+                                    <div class="grammar-item__icon-group">
+                                        <div class="icon-book">3</div>
+                                        <div class="icon-book">
+                                            <div class="grammar-sub__icon">
+                                                <img src="./assets/images/Group.png" alt="book">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="grammar-unit">
+                                <li>                              
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grammar-item">
+                    <ul class="grammar-part">
+                        <li>
+                            <div class="grammar-item-group">
+                                <div class="grammar-item__part">
+                                    <div class="grammar-item__sub-down">
+                                        <div class="grammar-sub-down__icon js-open-topic">
+                                            <i class="grammar-icon fa-solid fa-angle-down arrow-topic"></i>
+                                        </div>
+                                    </div>
+                                    <div class="grammar-item__text">
+                                        <span>Part 0 - Grammar Boost</span>
+                                    </div>
+                                </div>
+                                <div class="grammar-item__icon">
+                                    <div class="grammar-item__icon-group">
+                                        <div class="icon-book">3</div>
+                                        <div class="icon-book">
+                                            <div class="grammar-sub__icon">
+                                                <img src="./assets/images/Group.png" alt="book">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="grammar-unit">
+                                <li>                              
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grammar-item">
+                    <ul class="grammar-part">
+                        <li>
+                            <div class="grammar-item-group">
+                                <div class="grammar-item__part js-open-topic-part">
+                                    <div class="grammar-item__sub-down">
+                                        <div class="grammar-sub-down__icon js-open-topic">
+                                            <i class="grammar-icon fa-solid fa-angle-down arrow-topic"></i>
+                                        </div>
+                                    </div>
+                                    <div class="grammar-item__text js-open-topic-3" >
+                                        <span>Part 1 - Grammar Boost</span>
+                                    </div>
+                                </div>
+                                <div class="grammar-item__icon">
+                                    <div class="grammar-item__icon-group">
+                                        <div class="icon-book">3</div>
+                                        <div class="icon-book">
+                                            <div class="grammar-sub__icon">
+                                                <img src="./assets/images/Group.png" alt="book">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="grammar-unit">
+                                <li>                              
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grammar-item">
+                    <ul class="grammar-part">
+                        <li>
+                            <div class="grammar-item-group">
+                                <div class="grammar-item__part">
+                                    <div class="grammar-item__sub-down">
+                                        <div class="grammar-sub-down__icon js-open-topic">
+                                            <i class="grammar-icon fa-solid fa-angle-down arrow-topic"></i>
+                                        </div>
+                                    </div>
+                                    <div class="grammar-item__text js-open-topic-3">
+                                        <span>Part 0 - Grammar Boost</span>
+                                    </div>
+                                </div>
+                                <div class="grammar-item__icon">
+                                    <div class="grammar-item__icon-group">
+                                        <div class="icon-book">3</div>
+                                        <div class="icon-book">
+                                            <div class="grammar-sub__icon">
+                                                <img src="./assets/images/Group.png" alt="book">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="grammar-unit">
+                                <li>                              
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea j-l">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-idea">
+                                        <svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-dot-circle-solid" data-name=""><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z"></path></svg>
+                                    </div>
+                                    <div class="item-idea">
+                                        <a class="text-idea" href="#"><span>Idea 1</span></a>
+                                    </div>
+                                    <div class="item-idea j-r">
+                                        <a class="btn-lesson" href="#"><Span>Go to lesson</Span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+       
+        <!-- button-topic -->
+        <div class="button-topic">
+            <div class="button-topic-container">
+                <div class="button-topic-item">
+                    <a href="#">
+                        <div class="button-topic-item__instruct">
+                            <span class="capitalize">Hướng dẫn luyện tập</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="button-topic-item">
+                    <a href="#">
+                        <div class="button-topic-item__start">
+                            <span class="capitalize">Bắt đầu luyện tập</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer id="thrive-footer" class="footer">
+            <div class="footer__item">
+                <!-- footer intro -->
+                <div class="footer__item-intro">
+                    <div class="footer__item-intro-logo">
+                        <div class="footer__logo">
+                            <a href="#">
+                                <img src="./assets/images/logo/Phrasebook_logo.png" />
+                            </a>
+                        </div>
+                        <div class="footer__img">
+                            <a href="#">
+                                <img src="./assets/images/cropped-cropped-whitepng-1.png" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__item-intro-text footer__item-text">
+                        Phrasebook - Một Sản Phẩm Của 10 de LANGUAGE 
+                    </div>
+
+                    <div class="footer__item-intro-copyright footer__item-text">
+                        Copyright 2018 - &nbsp;<div id="current-time"></div>
+                    </div>
+                </div>
+
+                <!-- footer process -->
+                <div class="footer__item-link">
+                    <div class="footer__item-process-text">
+                        <p>PROCESS</p>
+                    </div>
+                    <ul class="footer__list">
+                        <li class="">
+                            <a href="#">
+                                <span class="footer__item-process-text-inner">Our Products</span>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">
+                                <span class="footer__item-process-text-inner">Cart</span>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">
+                                <span class="footer__item-process-text-inner">Checkout</span>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">
+                                <span class="footer__item-process-text-inner">My account</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                
+                <!-- footer useful links -->
+                <div class="footer__item-link">
+                    <div class="footer__item-process-text">
+                        <p>USEFUL LINKS</p>
+                    </div>
+                    <ul class="footer__list">
+                        <li class="">
+                            <a href="#">
+                                <span class="footer__item-process-text-inner">Phrasebook At Work</span>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">
+                                <span class="footer__item-process-text-inner">Grammar Boost</span>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">
+                                <span class="footer__item-process-text-inner">Methodology</span>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">
+                                <span class="footer__item-process-text-inner">Contact</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- footer contact info -->
+                <div class="footer__item-link">
+                    <div class="footer__item-process-text">
+                        <p class="footer__item-process-contact">CONTACT INFO</p>
+                    </div>
+                    <div class="footer__item-info-text">
+                        <div class="footer__item-intro-text footer__item-text">
+                            Email: 10delanguage@gmail.com
+                        </div>
+                        <div class="footer__item-intro-text footer__item-text">
+                            Phone: 0909 526 119
+                        </div>
+                    </div>
+                    <div class="footer__item-intro-social">
+                        <div class="footer__item-social-circle circle-facebook">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="footer__item-social-circle circle-likedin">
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/menu-model.js"></script>
+
+    <script>
+        var curDate = new Date();
+        var curYear = curDate.getFullYear();
+        document.getElementById('current-time').innerHTML = curYear;
+    </script>
+
+    <script src="./js/show-sub-menu.js"></script>
+    <script src="./js/show-sub-topic.js"></script>
+</body>
+</html>
+

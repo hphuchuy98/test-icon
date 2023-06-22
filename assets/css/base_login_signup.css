@@ -1,0 +1,23 @@
+@media (min-width: 320px) and (max-width: 600px) {
+    .container {
+        margin-top: 20px;
+    }
+
+    .f-s-b {
+        font-size: 34px;
+    }
+
+    .f-s-s {
+        font-size: 18px;
+    }
+
+    .container-box {
+        max-width: calc(100%);
+        margin: 0 auto;
+    
+       display: block;
+     }
+     .container-img {
+        display: none;
+     }
+}

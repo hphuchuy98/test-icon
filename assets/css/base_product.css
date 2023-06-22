@@ -1,0 +1,21 @@
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .content-box{
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+    }
+
+    .woocommerce-tabs li {
+        margin-right: 20px;
+    }
+
+    .description_tab a {
+        font-size: 12px;
+    }
+
+    .comment-form-submit button {
+        width: 100%;
+    }
+}
+
+
